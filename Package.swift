@@ -12,10 +12,9 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Quick/Nimble", from: "8.0.7"),
-        .package(url: "https://github.com/Quick/Quick", from: "2.2.0"),
     ],
     targets: [     
-        .target(name: "SpecLeaks", dependencies: ["Quick", "Nimble"], path: "SpecLeaks/Classes/"),
+        .target(name: "SpecLeaks", dependencies: ["Nimble"], path: "SpecLeaks/Classes/"),
     ],
     swiftLanguageVersions: [.v5]
 )

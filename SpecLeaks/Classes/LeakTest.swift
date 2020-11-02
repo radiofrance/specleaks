@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Quick
 import Nimble
 
 //public typealias LeakTestConstructor = () -> AnyObject

@@ -13,7 +13,6 @@ import Foundation
     import Cocoa
 #endif
 
-import Quick
 import Nimble
 
 struct AnalyzeLeakAction {

@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Quick
 import Nimble
 
 public func leak() -> Predicate<LeakTest> {

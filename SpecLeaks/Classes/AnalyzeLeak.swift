@@ -16,7 +16,6 @@ import Foundation
     public typealias OSViewController = NSViewController
 #endif
 
-import Quick
 import Nimble
 
 func view(_ vc: AnyObject?) {
